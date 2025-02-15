@@ -115,7 +115,7 @@ if __name__ == "__main__":
     agent_endpoint = "https://agent.generativeai.us-chicago-1.oci.oraclecloud.com"
 
     # Set agent OCID and endpoint
-    agent_endpoint_id = "ocid1.genaiagentendpoint.oc1.region.amaaaaaaz......."
+    agent_endpoint_id = "ocid1.genaiagentendpoint.oc1........"
 
     # get the clients used for asking questions
     generative_ai_agent_runtime_client = oci.generative_ai_agent_runtime.GenerativeAiAgentRuntimeClient(
